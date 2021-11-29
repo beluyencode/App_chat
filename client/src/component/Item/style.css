@@ -1,0 +1,14 @@
+.item{
+    padding-left:5px;
+    line-height: 30px;
+    
+}
+.item:hover{
+    cursor: pointer;
+    background-color:#333435;
+    border-radius: 7px;
+}
+.item span {
+    padding-left: 10px;
+    font-size:12px
+}

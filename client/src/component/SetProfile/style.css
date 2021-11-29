@@ -1,0 +1,90 @@
+.setProfile{
+    background-color: rgb(247, 244, 244);
+    width: 100%;
+    height: 100vh;
+}
+.domain-profile-setting{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:532px;
+    height:90%;
+    background-color:#1f1f1fe0  ;
+    border-radius: 10px;
+   
+}
+.header-profile-setting-div{
+    position:absolute;
+    top :0;
+    width:100%;
+    height:50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color:rgb(39, 38, 38);
+    color:rgb(247, 244, 244);
+}
+.header-profile-setting-p{
+    line-height:50px;
+    font-size: 19px;
+
+}
+.content-profile-setting-div{
+    width:100%;
+    position:absolute;
+    top: 50px;
+    bottom:50px;
+    color:rgb(247, 244, 244);
+}
+.content-profile-setting-div-chil{
+    width:100%;
+    padding-top: 10px;
+}
+.content-proflie-setting-input{
+    color: #565656;
+    width: 300px;
+    padding: .5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    font-size:16px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+    
+}
+.content-proflie-setting-input:focus{
+    border: 1px solid black;
+    outline:0;
+}
+.footer-profile-setting-div{
+    position:absolute;
+    width:100%;
+    height:50px;
+    background-color:rgb(39, 38, 38);
+    bottom:0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-profile-setting-btn{
+    background-color:rgb(39, 38, 38) ;
+    border: none;
+    color:rgb(247, 244, 244);
+    height:50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-profile-setting-btn:hover{
+    color:rgb(209, 207, 207);
+    cursor: pointer;
+
+}
+.footer-profile-setting-btn:disabled{
+    color:rgb(100, 100, 100);
+    cursor:not-allowed;
+}

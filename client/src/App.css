@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+ 
+  width: 100%;
+ 
+
+
+  
+}
+body,html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+li {
+  list-style-type: none;
+}
+
+@media screen and (max-width:900px) and (min-width:778px){
+  
+  .menu{
+    display: none;
+  }
+  .news{
+    width: 60% !important;
+  }
+  .friends{
+    width: 30% !important;
+  }
+}
+@media screen and (max-width:777px){
+  .App{
+    width:100%;
+  }
+  .Content{
+    justify-content:center !important;
+  }
+  .news{
+    width:70% !important;
+  }
+  .navbar-user{
+    width: 100%;
+  }
+  .menu{
+    display: none;
+  }
+  .friends{
+    display: none;
+  }
+}
+@media screen and (max-width:570px) {
+  .navbar-logo a {
+    display: none;
+  }
+}
+@media screen and (max-width:444px) {
+  .navbar-logo  {
+    display: none;
+  }
+  .navbar-user{
+    justify-content: center !important;
+  }
+}

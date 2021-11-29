@@ -1,0 +1,112 @@
+.full-screen{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url("http://localhost:3000/img/gannett.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:100vh;
+}
+@media only screen and (max-height:620px){
+    .full-screen{
+      height: 640px;
+    }
+}
+.goHome{
+    max-width: 24rem;
+    margin: auto;
+    height: 30px;
+    color: white;
+    padding-top: 20px;
+}
+.goHome a:hover{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.goHome a {
+    font-weight: bold;
+    font-size: 20px;
+    padding:5px
+}
+
+.SignIn{
+    
+    height: 90%;
+    margin: auto;
+    text-align:left;
+    max-width: 24rem;
+}
+.SignIn h1 {
+    text-align:center;
+    color: white;
+    font-weight: 400;
+    margin-top:10px;
+
+}
+.SignIn-form input {
+    color: #565656;
+    width: 95%;
+    padding: .5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    font-size:16px;
+    font-weight: 400;
+    display: block;
+    margin:auto;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+    
+}
+.SignIn-form input:focus {
+    border: 1px solid black;
+    outline:0;
+}
+.label {
+    color:white;
+  
+    text-align: left;
+}
+.SignIn-form form a {
+    float: right;
+    margin-bottom: 10px;
+}
+.SignIn-form p  {
+    color:white;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.btn-signin {
+    width:100% !important;
+    padding:8px !important;
+    margin: 10px 0px !important;
+    margin-bottom: 10px !important;
+    color:white !important;
+    opacity: 0.8 !important;
+}
+.btn-signin:disabled:hover{
+    border:none;
+    border: 1px solid black;
+    cursor: not-allowed !important;
+}
+.a-dangky {
+    font-weight: 700;
+}
+.SignIn-form p>a>img{
+    width:35px;
+    margin-top: 10px;
+}
+.icon-canhbao {
+    width: 30px;
+    float: left;
+    padding-right: 10px;
+}
+.load{
+    text-align: center;
+    font-size: 50px;
+}
